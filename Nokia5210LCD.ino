@@ -98,15 +98,15 @@ void setup()   {
   uint16_t millSpeed = 300;
   while (1) {
     display.fillRect(0, 0, 26, 22, WHITE);
-    display.drawBitmap(0, 0, windmill_1, 26, 22, 1);
+    display.drawXBitmap(0, 0, windmill_1, 26, 22, 1);
     display.display();
     delay(millSpeed);
     display.fillRect(0, 0, 26, 22, WHITE);
-    display.drawBitmap(0, 0, windmill_2, 26, 22, 1);
+    display.drawXBitmap(0, 0, windmill_2, 26, 22, 1);
     display.display();
     delay(millSpeed);
     display.fillRect(0, 0, 26, 22, WHITE);
-    display.drawBitmap(0, 0, windmill_3, 26, 22, 1);
+    display.drawXBitmap(0, 0, windmill_3, 26, 22, 1);
     display.display();
     delay(millSpeed);
   }
